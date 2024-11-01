@@ -1,0 +1,77 @@
+.wrap-sum {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f6f7f9;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.h1-sum {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 24px;
+    /* text-transform: uppercase; */
+    text-align: center;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    width: 150px;
+    text-align: left;
+    /*padding: 10px 20px;  Adjust this to align with input field */
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="submit"] {
+    display: block; /* Make the button a block element */
+    margin-top: 10px; /* Add some top margin for spacing */
+    width: 100%;
+    background-color: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+#message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#message.success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+#message.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo-container img {
+  max-width: 100px; /* You can adjust this to change the size of the logo */
+}
